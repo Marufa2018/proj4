@@ -5,7 +5,7 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath="clairelee7522/app"
+dockerpath="mars20/app"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
@@ -21,4 +21,3 @@ kubectl get pods
 # Step 4:
 # Forward the container port to a host
 kubectl port-forward app 8000:80
-© 2020 GitHub, Inc.
