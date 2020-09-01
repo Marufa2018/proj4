@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+
+<output for kubectl get deployments>
+NAME   READY   UP-TO-DATE   AVAILABLE   AGE
+api    0/1     1            0           55s
+<output for kubectl get pods>
+NAME                  READY   STATUS    RESTARTS   AGE
+api-b488fb84d-pwr7g   1/1     Running   0          73s
