@@ -4,15 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
-dockerpath="mars20/app"
+dockerpath=mars20/api
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run app\
-    --generator=run-pod/v1\
-    --image=$dockerpath\
-    --port=80 --labels app=app
+kubectl run api --image=mars20/api --port=80
 
 # Step 3:
 # List kubernetes pods
@@ -20,4 +16,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward app 8000:80
+kubectl expose deployment api --type=LoadBalancer --port=8000 --target-port=80
+

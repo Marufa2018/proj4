@@ -5,15 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
-dockerpath="mars20/app"
+dockerpath=mars20/api
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login &&\
-    docker image tag app $dockerpath
+docker tag api $dockerpath
 
 # Step 3:
 # Push image to a docker repository
-docker image push $dockerpath
+docker push $dockerpath
