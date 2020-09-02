@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/Marufa2018/proj4/14/workflows/09347483-06bf-4e17-89a7-3b30740bfaf8.svg?style=svg)](https://circleci.com/gh/Marufa2018/proj4/14/workflows/09347483-06bf-4e17-89a7-3b30740bfaf8)
+[![CircleCI](https://circleci.com/gh/Marufa2018/proj4.svg?style=svg)](https://app.circleci.com/pipelines/github/Marufa2018/proj4/14/workflows/09347483-06bf-4e17-89a7-3b30740bfaf8)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
